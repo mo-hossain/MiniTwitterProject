@@ -1,0 +1,78 @@
+/*This will style the main text*/
+/*--Jose Ortega made this page*/
+body{
+    width: 800px;
+    margin:2em;
+    font-family: Verdana, Gotham, Arial;
+    font-size: 80%;
+    text-align: left;
+    /*Dark purple text and background*/
+    color: #cf83ca;
+    background-color: #571b4a;
+    
+}
+
+h1{
+    /*size and spacing for headers*/
+    font-size: 180%;
+    margin-bottom: 0.5em;
+}
+
+label{
+    /*puts all text on left side aligned properly*/
+    text-align: left;
+    float: left;
+    width: 11em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+input[type="text"], [type="email"], [type="password"], [type="date"]{
+    /*Changes input text, text size, spaceing, and centers the boxes*/
+    font-family: Tahoma;
+    font-size: 10px;
+    letter-spacing: 1.25px;
+    width: 100px;
+    margin-bottom: 0.5em;
+}
+
+input[type="submit"]{
+    /*Makes the submit button look nice*/
+    background-color:#702f65;
+    border: none;
+    /*Smooths out border*/
+    border-radius: 4px;
+    color: #cf83ca;
+    padding: 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1.25px;
+    margin-bottom: 6px;
+    /*Changes cursor to pointer when hovering over it*/
+    cursor: pointer;
+}
+
+div{
+	color:#cf83ca;
+}
+
+br{
+    /*Moves to a different line*/
+    clear: both;
+}
+
+/*Styles for classes*/
+.padding{
+    margin-left: 0em;
+    padding-top: 0.15em;
+}
+
+.notVisible{
+    display: none;
+}
+
+.isVisible{
+    display: inline;
+}
